@@ -1,0 +1,12 @@
+{
+    "timeline_size": 1000,
+    "state_keys": ["time", "close"],
+    "action_keys": ["hold", "long", "short"],
+    "capital": 100,
+    "take_profit": 20,
+    "stop_loss": 5,
+    "episode_count": 1,
+    "_transaction_fee": 3,
+    "_calculate_fee": "True",
+    "_print_log": "False"
+}

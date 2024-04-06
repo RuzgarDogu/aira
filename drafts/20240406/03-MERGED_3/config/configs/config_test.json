@@ -1,0 +1,15 @@
+{
+    "_learning_rate": 0.0001,
+    "_schedule_learning_rate" : "True",
+    "epochs": 100,
+    "batch_size": 256,
+    "validation_split": 0.2,
+    "verbose": 1,
+    "decay_steps": 50,
+    "decay_rate": 0.96,
+    "split_ratio": 0.2,
+    "state_keys": ["open", "high", "low", "close", "rsi", "sma14", "sma100", "wvf", "diff_upper", "diff_lower", "highest_long", "highest_short"],
+    "look_ahead": 15,
+    "lstm_window_size": 50,
+    "_normalize": "True"
+}
